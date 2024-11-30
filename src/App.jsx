@@ -1,11 +1,12 @@
 import React from 'react'
 import Footer from './components/footer'
 import Content from './components/content'
+import Header from './components/header'
 
 const App = () => {
   return (
     <>
-    <div className='bg-red-400'>App</div>
+    <Header />
     <Content />
     <Footer />
     </>
